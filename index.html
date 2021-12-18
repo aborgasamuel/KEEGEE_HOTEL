@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KEEGEE_HOTEL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-grey bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">KEEGEE HOTEL</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ROOMS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">STANDARD ROOM</a></li>
+              <li><a class="dropdown-item" href="#">DELUXE ROOM</a></li>
+              <li><a class="dropdown-item" href="#">EXECUTIVE ROOM</a></li>
+              <li><a class="dropdown-item" href="#">DOUBLE STANDARD</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link abled" href="#" tabindex="-1" aria-abled="true"></a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+        aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+        aria-label="Slide 7"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+        aria-label="Slide 8"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./reception.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>OUR BEAUTIFUL RECEPTION</h1>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./conferenceroom.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>GORGEOUS CONFERENCE CENTER</h1>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./gym.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>FITNESS CENTER</h1>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./poolside.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>RELAX AND UNWIND</h1>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./dinning.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>RESTAURANT</h1>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./bed_room1.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>ELEGANT ROOM</h1>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div id="line">
+    <span class="outer-line"></span>
+    <span class="fa fa-heart" aria-hidden="true"></span>
+    <span class="outer-line"></span>
+  </div>
+  <div class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="./item7.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">RESTAURANT</h5>
+            <p class="card-text">Food is served under hygienic conditions at Restaurant with a seating capacity of
+              people.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./bed_room7.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">STANDARD ROOM</h5>
+            <p class="card-text">We have standard room for every quest who visits our hotel.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="./bed_room5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">DELUXE ROOM</h5>
+            <p class="card-text">This is our deluxe room for every one.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="line">
+    <span class="outer-line"></span>
+    <span class="fa fa-heart" aria-hidden="true"></span>
+    <span class="outer-line"></span>
+  </div>
+  <div>
+  <h1> PHOTO GALLERY </h1>
+  </div>
+  <div class="container">
+    <div class="row gx-5">
+      <div class="col">
+        <img src="./dinning2.jpg" width="365" class="rounded" alt="...">
+      </div>
+      <div class="col">
+        <img src="./dinning.jpg"   class="rounded" alt="...">
+      </div>
+      <div class="col">
+        <img src="./gym.jpg "   class="rounded" alt="...">
+      </div>
+      <div class="col">
+        <img src="./poolside.jpg"  class="rounded" alt="...">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row gx-5">
+      <div class="col">
+        <img src="./snooker.jpg" width="365" class="rounded" alt="...">
+      </div>
+      <div class="col">
+        <img src="./FRH-new-Select-King-Room-bathroom-510-2col-3x2-1.jpg.webp" width="365" class="rounded" alt="...">
+      </div>
+      <div class="col">
+        <img src="./bed_room5.jpg" width="365" class="rounded" alt="...">
+      </div>
+      <div class="col">
+        <img src="./bed_room6.jpg" width="356" class="rounded" alt="...">
+      </div>
+    </div>
+  </div>
+  <div>
+    <div id="line">
+      <span class="outer-line"></span>
+      <span class="fa fa-heart" aria-hidden="true"></span>
+      <span class="outer-line"></span>
+    </div>
+  </div>
+  </div>
+  <div class="container-fluid" style="background-color:#eff5f5;">
+
+    <button onclick="topFunction()" id="to-top" title="Go to top">Top</button>
+
+    <div class="row  row-no-gutters">
+      <div class="col-xs-12 col-sm-6 col-md-3" >
+        <ul>
+          <li class="col-heading">KEEGEE HOTEL</li>
+          <li>
+            <i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+233246535000">+2332465350000</a>
+          </li>
+          <li>
+            <i class="fa fa-mobile" aria-hidden="true"></i><a href="sms:+233591793801">+233591793801</a>
+          </li>
+          <li>
+             <i class="fa fa-map-marker" aria-hidden="true"></i><a href="#">Address</a>
+          </li> 
+          <li>
+             <i class="fa fa-envelope-square" aria-hidden="true"></i><a href="aborgasamuel80@gmail.com">Email Us</a>  
+          </li> 
+        </ul>
+      </div>     
+
+      <div class="col-xs-12 col-sm-6 col-md-3" >
+        <ul>
+          <li class="col-heading">NAVIGATION</li>
+          <li><a href="#">RECEPTION</a></li>
+          <li><a href="#">POOLSIDE</a></li>
+          <li><a href="#">BEDROOMS</a></li>
+          <li><a href="#">NIGHT CLUB</a></li>
+        </ul>
+      </div>      
+
+      <div class="col-xs-12 col-sm-6 col-md-3" >
+        <ul>
+          <li class="col-heading">ROOMS</li>
+          <li><a href="#">STANDARD ROOM</a></li>
+          <li><a href="#">DOUBLE ROOM</a></li>
+          <li><a href="#">SUITE ROOM</a></li>
+          <li><a href="#">DELUXE ROOM</a></li>
+        </ul>
+      </div>
+      
+      <div class="col-xs-12 col-sm-6 col-md-3" >
+        <ul>
+          <li class="col-heading">FACILITIES</li>
+          <li><a href="#">FITNESS CENTER</a></li>
+          <li><a href="#">CONFERENCE CENTER</a></li>
+          <li><a href="#">DINNER ROOM</a></li>
+          <li><a href="#">CAR PARK</a></li>
+        </ul>
+      </div>
+    </div> <!--  end row  -->
+    
+    <div class="row row-no-gutters" id="bottom-footer" >
+      
+      <div class="col-xs-12 col-md-5 text-center" >
+          <ul class="vertical-links small">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Site Map</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+      </div>
+      <div class="col-xs-12 col-md-2 text-center" >
+        <p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+      </div>
+      <div class="col-xs-12 col-md-5 text-center" >
+        <ul>
+          <li class="small">© Copyright 2021 Website by <a href="#" style="color:white;font-weight:500;">The Legends</a>. All Rights reserved.</li>
+        </ul>
+      </div>
+    </div> <!--  end row  -->
+
+  </div> <!--  end container-fluid  -->
+
+  <script>
+    // Script from W3 Schools  
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("to-top").style.display = "block";
+      } else {
+        document.getElementById("to-top").style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+     crossorigin="anonymous"></script>
+</body>
+
+</html>
